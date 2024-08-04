@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.contentSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1600px;
+  margin-bottom: 60px;
+  gap: 60px;
+}
+
+.aboutImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.textSection {
+  flex: 2;
+  text-align: left;
+}
+
+.textSection h3 {
+  font-size: 2rem; 
+  color: #333;
+  margin: 10px 0;
+}
+
+.textSection b h3 {
+  font-size: 1.4rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.textSection p {
+  font-size: 1.8rem; 
+  color: #555;
+  margin: 15px 0;
+}
+
+.textSection h2 {
+  font-size: 2rem; 
+  color: #333;
+  margin-top: 30px;
+}
+
+.skillsSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.skillIcon {
+  width: 60px; 
+  height: 60px;
+}
+
+.socialSection {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 15px; 
+}
+
+.socialLinks a {
+  display: flex;
+  align-items: center;
+}
+
+.socialIcon {
+  width: 30px; 
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .contentSection {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .textSection h3 {
+    font-size: 1.5rem; 
+  }
+  
+  .textSection b h3 {
+    font-size: 1.2rem; 
+  }
+  
+  .textSection p {
+    font-size: 1.5rem; 
+  }
+  
+  .textSection h2 {
+    font-size: 1.8rem; 
+  }
+  
+  .skillsSection {
+    justify-content: center;
+  }
+}

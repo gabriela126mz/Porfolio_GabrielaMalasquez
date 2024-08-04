@@ -1,0 +1,9 @@
+next.js
+
+npx create-next-app@latest
+
+cd porfolio
+npm i
+npm run dev
+
+
